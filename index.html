@@ -14,11 +14,12 @@
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css" class="style" />
+    <link rel="stylesheet" href="./assets/style.css" class="style" />
 
     <title>Note App</title>
   </head>
   <body>
+    <div id="particles-js"></div>
     <header>
       <h1>Joshua's Note App</h1>
     </header>
@@ -35,10 +36,15 @@
         </select>
       </div>
     </form>
+
     <div class="todo-container">
       <ul class="todo-list"></ul>
     </div>
 
-    <script src="./app.js"></script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+
+    <script src="./assets/app.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./assets/particles.js"></script>
   </body>
 </html>

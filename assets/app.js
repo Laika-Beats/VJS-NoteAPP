@@ -48,6 +48,7 @@ function addTodo(event) {
 }
 
 function deleteCheck(event) {
+  event.stopPropagation();
   const item = event.target;
 
   //Delete todo
